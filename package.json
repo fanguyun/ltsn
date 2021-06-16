@@ -1,0 +1,29 @@
+{
+  "name": "ltsn-fan",
+  "version": "1.0.0",
+  "description": "Node LTS的版本查看工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanguyun214/ltsn.git"
+  },
+  "author": "JasonFan <289696260@qq.com> (http://github.com/fanguyun214)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fanguyun214/ltsn/issues"
+  },
+  "homepage": "https://github.com/fanguyun214/ltsn#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.6",
+    "compare-versions": "^3.6.0",
+    "terminal-link": "^2.0.0"
+  }
+}
